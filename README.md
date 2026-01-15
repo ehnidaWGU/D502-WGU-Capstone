@@ -1,3 +1,5 @@
+[![CI](https://github.com/ehnidaWGU/D502-WGU-Capstone/actions/workflows/ci.yml/badge.svg)](https://github.com/ehnidaWGU/D502-WGU-Capstone/actions/workflows/ci.yml)
+
 
 # D502 WGU BSDA Capstone: Loan Default Prediction and Policy Simulation
 

@@ -13,3 +13,6 @@ reports/.cache/
 *.pkl
 .DS_Store
 .vscode/
+
+# Data
+/data/

@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from ingest import get_repo_root, get_raw_dir, validate_raw_files, load_application_train
 
 def main() -> None:

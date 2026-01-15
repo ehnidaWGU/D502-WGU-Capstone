@@ -1,0 +1,15 @@
+data/raw/
+data/interim/
+data/processed/
+data/features/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+models/
+reports/.cache/
+*.pkl
+.DS_Store
+.vscode/

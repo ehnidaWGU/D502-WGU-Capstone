@@ -1,14 +1,30 @@
-End-to-end loan default risk modeling using the Home Credit Default Risk dataset, including explainability, approval cutoff simulation, and an interactive dashboard
 
+# D502 WGU BSDA Capstone: Loan Default Prediction and Policy Simulation
+
+My capstone for the WGU BSDA program. Utilizing the Home Credit dataset on Kaggle, I will build a reproducible data cleaning pipeline, perform EDA, and develop a predictive model for calculating the odds of a loan defaulting as well as optimizing loan profits for the Home Credit bank. This project will additionally include an approval cutoff simulation and an interactive dashboard.
+
+## Objectives:
+- Build a reproducible data cleaning pipeline
+- Build a baseline default risk model using application-level features
+- Add engineered features from supporting tables via aggregation (to prevent exploding table joins)
+- Evaluate model performance
+- Simulate different approval cutoffs to quantify tradeoffs (risk, volume, profits/losses)
+- Provide an interactive Tableau dashboard
+
+## Dataset
+- Source: Kaggle - **Home Credit Default Risk**
+- Raw files are stored locally and **will not** be committed to this GitHub Repo
 
 
 \## Environment
 
-\- Python 3.11+
+\- Language: Python 3.11+
 
-\- Ubuntu (local development)
+\- OS: Ubuntu (local development)
 
-\- SQLite
+\- Storage: SQLite
+
+\- Libraries: Pandas, NumPy, scikit-learn (will add others as needed)
 
 
 

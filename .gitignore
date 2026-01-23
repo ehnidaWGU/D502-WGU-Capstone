@@ -1,3 +1,5 @@
+notebooks/data/
+*.db
 data/raw/
 data/interim/
 data/processed/
@@ -13,6 +15,7 @@ reports/.cache/
 *.pkl
 .DS_Store
 .vscode/
+
 
 # Data
 /data/

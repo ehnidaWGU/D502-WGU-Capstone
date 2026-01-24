@@ -2,8 +2,6 @@
 from __future__ import annotations
 
 import argparse
-from dataclasses import asdict
-from pathlib import Path
 
 import joblib
 import numpy as np
@@ -112,7 +110,7 @@ def main() -> None:
     prep = preprocess_application_train(df)
     num_feature_count = len(prep.artifacts.numeric_cols)
 
-    print(f"Preprocessing complete.")
+    print("Preprocessing complete.")
     print(f"X_train shape: {prep.X_train.shape} | X_valid shape: {prep.X_valid.shape}")
     print(f"Numeric cols: {num_feature_count} | One-hot cols: {prep.X_train.shape[1] - num_feature_count}")
 

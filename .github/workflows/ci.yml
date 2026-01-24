@@ -32,6 +32,14 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
 
+        - name: Verify joblib installed
+        run: |
+          python -m pip --version
+          python -c "import sys; print(sys.executable)"
+          pip show joblib || true
+          python -c "import joblib; print('joblib version:', joblib.__version__)" || true
+          python -c "import sklearn; print('sklearn version:', sklearn.__version__)" || true
+
       - name: Run pipeline smoke test
         run: python -m src.main --smoke-test
 

@@ -1,0 +1,9 @@
+1/23/2026
+
+The notebook testing phase is over and I am going to begin the process of creating the pipeline.
+
+**Champion Model**: Logistic Regression (decision threshold = 0.5, class_weight = "balanced")
+**Feature set**: Baseline features from application_train.csv since bureau.csv aggregates and LTV feature engineering did not enhance model performance
+**Preprocessing**: Same as in baseline (dropping high-missingness columns, drop sentinel values, training/validation split, impute missing data in numeric columns, One-hot encode categorical columns, scale model for logistic regression model (StandardScaler))
+**Metrics**: Confusion Matrix, precision/recall, capture and lift rate
+

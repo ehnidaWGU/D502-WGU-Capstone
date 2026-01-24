@@ -7,7 +7,7 @@ from pathlib import Path
 
 import joblib
 import numpy as np
-
+import pandas as pd
 from src.paths import get_paths
 from src.ingest import get_raw_dir, validate_raw_files, load_application_train, save_to_interim
 from src.preprocess import preprocess_application_train

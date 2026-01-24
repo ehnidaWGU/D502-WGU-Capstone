@@ -20,9 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run pipeline smoke test
-        run: python -m src.main --smoke-test
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -34,6 +31,9 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+
+      - name: Run pipeline smoke test
+        run: python -m src.main --smoke-test
 
       - name: Lint (ruff)
         run: |

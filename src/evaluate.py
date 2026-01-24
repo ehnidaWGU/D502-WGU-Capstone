@@ -6,7 +6,7 @@ Evaluation metrics for logistic regression model
 
 from __future__ import annotations
 
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 from typing import Iterable, Dict, Any, List
 from pathlib import Path
 import json

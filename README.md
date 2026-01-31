@@ -45,5 +45,8 @@ My capstone for the WGU BSDA program. Utilizing the Home Credit dataset on Kaggl
 
 ## CI
 
-GitHub Actions runs linting and tests on all pull requests and main
+GitHub Actions runs linting and ruff tests on all pull requests and main. The workflow also runs a pipeline smoke test on each push and pull to main.
+
+## Links
+Public Tableau Story -> https://public.tableau.com/views/HomeCreditDefaultRiskVisualizations/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
